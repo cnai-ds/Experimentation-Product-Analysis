@@ -19,13 +19,14 @@ Before jumping into statistical tests, visualize the KPIs first to have the sens
 It is important when we present the result to stakeholders and also to detect the faulty statistical test results.
 - Check mean and medium, group by subgroups
 - Plot boxplot, distribution, bar chart
-<img src="./img/2.png" alt="" width="600">
+<img src="./img/2.png" alt="" width="800">
 <br>
 
 ### 3. Explanatory modeling
 This step can be skipped if you are testing for conventional and one-directional KPIs, such as CVR, CTR, or OR, and no causality is found.
-<img src="./img/3.png" alt="" width="600">
-<img src="./img/4.png" alt="" width="600">
+<img src="./img/3.png" alt="" width="800">
+<br>
+<img src="./img/4.png" alt="" width="800">
 <br>
 
 ### 4. Statistical tests
@@ -33,7 +34,7 @@ There are 2 type of statistical tests, Frequentist and Bayesian, and many compan
 However, I would recommend to test by 2 methods whenever possible to cross validate, especially when the delta is small or if the result is against the business sense, as both methodoloy have pitfalls. <br>
 - Frequentist: risk to commit type I & II errors
 - Bayesian: risk to choose wrong prior
-<img src="./img/5.png" alt="" width="600">
+<img src="./img/5.png" alt="" width="800">
 <br>
 
 ### 5. Causal inference
