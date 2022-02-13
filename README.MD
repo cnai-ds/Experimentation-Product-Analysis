@@ -12,20 +12,20 @@ If the data is not correct, then further analysis would not have value.
 - Check buckets that you designed with javascript are equal both in control and treatment. This include sub-buckets like geography, device, environment, marketing channel, or any user-segment 
 - Check if the invariant metrics (user-defined) are equal both in control and treatment
 - Check extreme outliers, missing values, data type, # of unique values
-<img src="./img/1.png" alt="" width="300">
+<img src="./img/1.png" alt="" width="600">
 
 ### 2. EDA
 Before jumping into statistical tests, visualize the KPIs first to have the sense of the result ! <br>
 It is important when we present the result to stakeholders and also to detect the faulty statistical test results.
 - Check mean and medium, group by subgroups
 - Plot boxplot, distribution, bar chart
-<img src="./img/2.png" alt="" width="300">
+<img src="./img/2.png" alt="" width="600">
 <br>
 
 ### 3. Explanatory modeling
 This step can be skipped if you are testing for conventional and one-directional KPIs, such as CVR, CTR, or OR, and no causality is found.
-<img src="./img/3.png" alt="" width="300">
-<img src="./img/4.png" alt="" width="300">
+<img src="./img/3.png" alt="" width="600">
+<img src="./img/4.png" alt="" width="600">
 <br>
 
 ### 4. Statistical tests
@@ -33,7 +33,7 @@ There are 2 type of statistical tests, Frequentist and Bayesian, and many compan
 However, I would recommend to test by 2 methods whenever possible to cross validate, especially when the delta is small or if the result is against the business sense, as both methodoloy have pitfalls. <br>
 - Frequentist: risk to commit type I & II errors
 - Bayesian: risk to choose wrong prior
-<img src="./img/5.png" alt="" width="300">
+<img src="./img/5.png" alt="" width="600">
 <br>
 
 ### 5. Causal inference
