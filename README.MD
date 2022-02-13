@@ -12,7 +12,7 @@ If the data is not correct, then further analysis would not have value.
 - Check buckets that you designed with javascript are equal both in control and treatment. This include sub-buckets like geography, device, environment, marketing channel, or any user-segment 
 - Check if the invariant metrics (user-defined) are equal both in control and treatment
 - Check extreme outliers, missing values, data type, # of unique values
-![]("./img/1.png")
+![example]("./img/1.png")
 
 ### 2. EDA
 Before jumping into statistical tests, visualize the KPIs first to have the sense of the result ! <br>
