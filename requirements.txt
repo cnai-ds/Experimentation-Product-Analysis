@@ -1,0 +1,13 @@
+pandas
+numpy
+altair
+matplotlib
+seaborn
+scipy
+pymc3
+arviz
+statsmodels
+sklearn
+xgboost
+eli5
+shap
