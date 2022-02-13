@@ -1,7 +1,8 @@
 # Experimentation
-This is the repository to demonstrate the analysis approach for experimentation, including A/B testing, A/A testing, and quasi-experimental testing for data driven product decision making. <br><br>
+This is the repository to demonstrate the analysis approach for experimentation, including A/B testing, A/A testing, and quasi-experimental testing for data driven product decision making. <br>
+I use one of my experimentation analysis for an example, although data cannot be share due to the confidentiality. <br>
 
-If you would like to know more about it, wave me somehow ! <br>
+I am open to hear your approach, and let me know if I should detail on certain topics.<br>
 
 ## Essential step of Experimentation:
 ### 1. Sanity check and data quality check
@@ -11,17 +12,20 @@ If the data is not correct, then further analysis would not have value.
 - Check buckets that you designed with javascript are equal both in control and treatment. This include sub-buckets like geography, device, environment, marketing channel, or any user-segment 
 - Check if the invariant metrics (user-defined) are equal both in control and treatment
 - Check extreme outliers, missing values, data type, # of unique values
-<br>
+![]("./img/1.png")
 
 ### 2. EDA
 Before jumping into statistical tests, visualize the KPIs first to have the sense of the result ! <br>
 It is important when we present the result to stakeholders and also to detect the faulty statistical test results.
 - Check mean and medium, group by subgroups
 - Plot boxplot, distribution, bar chart
+![]("./img/2.png")
 <br>
 
 ### 3. Explanatory modeling
 This step can be skipped if you are testing for conventional and one-directional KPIs, such as CVR, CTR, or OR, and no causality is found.
+![]("./img/3.png")
+![]("./img/4.png")
 <br>
 
 ### 4. Statistical tests
@@ -29,6 +33,7 @@ There are 2 type of statistical tests, Frequentist and Bayesian, and many compan
 However, I would recommend to test by 2 methods whenever possible to cross validate, especially when the delta is small or if the result is against the business sense, as both methodoloy have pitfalls. <br>
 - Frequentist: risk to commit type I & II errors
 - Bayesian: risk to choose wrong prior
+![]("./img/5.png")
 <br>
 
 ### 5. Causal inference
