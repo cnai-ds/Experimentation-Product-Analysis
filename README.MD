@@ -13,7 +13,7 @@ If the data is not correct, then further analysis would not have value.
 - Check if the invariant metrics (user-defined) are equal both in control and treatment
 - Check extreme outliers, missing values, data type, # of unique values
 <br>
-<img src="./img/1.png" alt="" width="600">
+<img src="./img/1.png" alt="" width="300">
 
 ### 2. EDA
 Before jumping into statistical tests, visualize the KPIs first to have the sense of the result ! <br>
